@@ -14,3 +14,7 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+screenshots/aPSD - Final Screenshots.psd
+*.psd
+screenshots/2021-06-16 18.19.02 127.0.0.1 fd755cebce13.jpg
+screenshots/2021-06-16 18.19.47 127.0.0.1 d803d2346e52.jpg

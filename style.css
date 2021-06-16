@@ -25,6 +25,7 @@ body {
 .page-content {
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   min-height: 100vh;
   padding: 1.5rem;
@@ -51,6 +52,21 @@ h6 {
   font-family: var(--main-font);
 }
 
+.attribution {
+  font-size: 11px;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
 /* ======================================
 CENTRAL CARD: LAYOUT
 ====================================== */
@@ -67,6 +83,7 @@ CENTRAL CARD: LAYOUT
   grid-template-columns: 1fr;
   grid-template-rows: 240px 1.15fr 1fr;
   height: 100%;
+  margin: auto;
   max-width: 325px;
   overflow: hidden;
   width: 100%;
