@@ -94,7 +94,7 @@ CENTRAL CARD: LAYOUT
   grid-area: desc;
   margin: auto;
   /* max-width: 250px; */
-  padding: 2.35rem;
+  padding: 2.35rem 2rem;
   width: 100%;
 }
 
